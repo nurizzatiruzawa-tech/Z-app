@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "nativewind/theme";
+
+@theme {
+  --color-coral: #F1654C;
+  --color-coral-dark: #D84E36;
+  --color-coral-light: #FFECE8;
+  --color-cream: #FEFBF6;
+  --color-cream-dark: #F5EFE6;
+  --color-cream-border: #EAE4D9;
+  --color-tab-dark: #121722;
+  --color-card-yellow: #F7D267;
+  --color-card-blue: #BFDCF6;
+  --color-card-green: #C4E4D8;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #FEFBF6;
+}
